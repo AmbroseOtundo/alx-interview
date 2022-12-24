@@ -23,6 +23,7 @@ def pascal_triangle(n):
     if n <= 0:
         return triangle
     previous = [1]
+    
     for row_index in range(n):
         rowlist = []
         if row_index == 0:
